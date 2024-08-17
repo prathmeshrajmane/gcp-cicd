@@ -1,4 +1,6 @@
 steps:
+    options:
+      logging: CLOUD_LOGGING_ONLY
   # Building a Docker image for the web UI application
   - name: 'gcr.io/cloud-builders/docker'
     args: ['build', '-t', 'us-central1-docker.pkg.dev/optimum-entity-431615-q9/test-repository/webapp', './webapp']
