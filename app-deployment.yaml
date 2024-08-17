@@ -17,4 +17,3 @@ spec:
         image: us-central1-docker.pkg.dev/optimum-entity-431615-q9/test-repository
         ports:
         - containerPort: 8080
-        
